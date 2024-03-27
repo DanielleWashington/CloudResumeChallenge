@@ -318,8 +318,9 @@
 
 const counter = document.querySelector(".counter-number");
 async function updateCounter() {
-    let response = await fetch("https://tiimkj3yyzf7wai2vjbimkays40toaws.lambda-url.us-east-1.on.aws/")
+    let response = await fetch("https://ikpwxosww6lds75pwnk3r6ozdu0thjky.lambda-url.us-east-1.on.aws/")
     let data = await response.json
     counter.innerHTML = ` Views: ${data}`;
 }
+
 updateCounter();
