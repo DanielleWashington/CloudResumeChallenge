@@ -325,7 +325,7 @@ async function updateCounter() {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     let data = await response.json();
-    counter.innerHTML = ` Views: ${data}`;
+    counter.innerHTML = ` ${data}`;
   } catch (error) {
     console.error("Error fetching data:", error);
     // Handle errors gracefully, like displaying an error message
