@@ -563,6 +563,16 @@ textarea {
     /* 2 */
 }
 
+.counter-number{
+    font-size: 9.8rem;
+    font-weight: 600;
+    letter-spacing: -.04em;
+    line-height: 1;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* ------------------------------------------------------------------- 
  * ## interactive
  * ------------------------------------------------------------------- */
