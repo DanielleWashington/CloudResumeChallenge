@@ -564,11 +564,11 @@ textarea {
 }
 
 .counter-number{
-    font-size: 9.8rem;
+    font-size: 6.8rem;
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
-    color: white;
+    color: #f4c3c9;
     margin-top: 0;
     margin-bottom: 0;
 }
