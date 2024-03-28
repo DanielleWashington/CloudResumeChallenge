@@ -319,7 +319,7 @@
 const counter = document.querySelector(".counter-number");
 async function updateCounter() {
     let response = await fetch("https://ikpwxosww6lds75pwnk3r6ozdu0thjky.lambda-url.us-east-1.on.aws/")
-    let data = await response.json
+    let data = await response.json()
     counter.innerHTML = ` Views: ${data}`;
 }
 
