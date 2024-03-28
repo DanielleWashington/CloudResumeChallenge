@@ -317,10 +317,19 @@
 })(document.documentElement);
 
 const counter = document.querySelector(".counter-number");
+
 async function updateCounter() {
-    let response = await fetch("https://ikpwxosww6lds75pwnk3r6ozdu0thjky.lambda-url.us-east-1.on.aws/")
-    let data = await response.json()
+  try {
+    let response = await fetch("https://ikpwxosww6lds75pwnk3r6ozdu0thjky.lambda-url.us-east-1.on.aws/");
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    let data = await response.json();
     counter.innerHTML = ` Views: ${data}`;
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    // Handle errors gracefully, like displaying an error message
+  }
 }
 
 updateCounter();
