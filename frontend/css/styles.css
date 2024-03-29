@@ -563,16 +563,6 @@ textarea {
     /* 2 */
 }
 
-.counter-number{
-    font-size: 6.8rem;
-    font-weight: 600;
-    letter-spacing: -.04em;
-    line-height: 1;
-    color: #f4c3c9;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 /* ------------------------------------------------------------------- 
  * ## interactive
  * ------------------------------------------------------------------- */
@@ -3504,13 +3494,21 @@ input[type="button"].btn--primary:focus {
     padding-bottom: 12vh;
     position: relative;
 }
-
-.s-hero__content h1 {
-    font-size: 9.8rem;
+.counter-number{
+    font-size: 120px;
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
     color: #f4c3c9;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.s-hero__content h1 {
+    font-size: 160px;
+    font-weight: 600;
+    letter-spacing: -.04em;
+    line-height: 1;
+    color: #ffffff;
     margin-top: 0;
     margin-bottom: 0;
 }
