@@ -3495,7 +3495,7 @@ input[type="button"].btn--primary:focus {
     position: relative;
 }
 .counter-number{
-    font-size: 120px;
+    font-size: 3.5rem;
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
@@ -3504,7 +3504,7 @@ input[type="button"].btn--primary:focus {
     margin-bottom: 0;
 }
 .s-hero__content h1 {
-    font-size: 160px;
+    font-size: 9.8rem;
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
